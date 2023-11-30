@@ -3,6 +3,7 @@
 interface DataBase {
     public function getData();
 }
+
 class Mysql implements DataBase
 {
     public function getData()
